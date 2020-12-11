@@ -10,4 +10,4 @@ var colore= prompt('inserisci il tuo colore preferito');
 
 // console.log(nome, cognome, colore);
 
-document.getElementById('presentazione').innerHTML='nome' + ' ' + 'cognome' + ' ' + 'colore';
+document.getElementById('presentazione').innerHTML+=nome+cognome+colore+19;
