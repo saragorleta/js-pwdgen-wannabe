@@ -7,7 +7,6 @@ var nome= prompt('inserisci il tuo nome');
 var cognome= prompt('inserisci il tuo cognome');
 var colore= prompt('inserisci il tuo colore preferito');
 
-
 // console.log(nome, cognome, colore);
 
-document.getElementById('presentazione').innerHTML+=nome+cognome+colore+19;
+document.getElementById('presentazione').innerHTML+=nome+cognome+colore+20;
